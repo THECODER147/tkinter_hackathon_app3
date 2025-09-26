@@ -24,10 +24,10 @@ jobs:
         run: pip install pyinstaller
 
       - name: Build executable
-        run: pyinstaller --onefile tkinter_calculator_grid.py
+        run: pyinstaller --onefile tkinter.py
 
       - name: Upload executable
         uses: actions/upload-artifact@v4
         with:
           name: tkinter_calculator_exe
-          path: dist/tkinter_calculator_grid.exe
+          path: dist/tkinter.exe
