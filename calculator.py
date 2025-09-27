@@ -1,4 +1,4 @@
-import tkinter as Tk
+import tkinter as tk
 
 def addition():
     try:
